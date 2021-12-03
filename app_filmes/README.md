@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+### npm i = para instalar as dependecias
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### about
+ - Desenvolvei usando React + Redux e axios para fazer as chamadas na api,
+ fiz no deploy no Vercel, e por algum motivo a chamada na apiomd esta dando esse erro:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ `xhr.js:187 Mixed Content: The page at 'https://app-filmes-eight.vercel.app/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://www.omdbapi.com/?apikey=925eba28&s=batman'. This request has been blocked; the content must be served over HTTPS.
+(anonymous) @ xhr.js:187
+e.exports @ xhr.js:13
+e.exports @ dispatchRequest.js:51
+s.request @ Axios.js:108
+r.forEach.s.<computed> @ Axios.js:129
+(anonymous) @ bind.js:9
+(anonymous) @ index.js:25
+s @ runtime.js:63
+(anonymous) @ runtime.js:294
+(anonymous) @ runtime.js:119
+r @ asyncToGenerator.js:3
+u @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ index.js:24
+(anonymous) @ index.js:31
+zl @ react-dom.production.min.js:262
+t.unstable_runWithPriority @ scheduler.production.min.js:18
+qo @ react-dom.production.min.js:122
+Nl @ react-dom.production.min.js:261
+(anonymous) @ react-dom.production.min.js:261
+D @ scheduler.production.min.js:16
+E.port1.onmessage @ scheduler.production.min.js:12
+createError.js:16 Uncaught (in promise) Error: Network Error
+    at e.exports (createError.js:16)
+    at XMLHttpRequest.h.onerror (xhr.js:99)`
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
