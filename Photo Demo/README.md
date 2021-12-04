@@ -12,6 +12,9 @@ a foto de `erro`:
 ### favorites
   - tenho meu link de `favorited`, la estao vindo os dados salvos em 
   meu banco, e em seguida faço a remoção caso eu queira.
+  
+  - temos uma validação ao qual não é permitido dados com imdbID igual,
+  suas chaves são unicas
 
 
 ### banco e insomnia
